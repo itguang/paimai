@@ -554,7 +554,7 @@ export default {
 	& /deep/ .el-button--success {
 		height: 40px;
 		color: rgba(255, 255, 255, 1);
-		font-size: 5px;
+		font-size:15px;
 		border-width: 0px;
 		border-style: solid;
 		border-color: #DCDFE6;
@@ -565,7 +565,7 @@ export default {
 	& /deep/ .el-button--primary {
 		height: 40px;
 		color: rgba(255, 255, 255, 1);
-		font-size: 5px;
+		font-size:15px;
 		border-width: 0px;
 		border-style: solid;
 		border-color: #DCDFE6;
@@ -576,7 +576,7 @@ export default {
 	& /deep/ .el-button--danger {
 		height: 40px;
 		color: rgba(255, 255, 255, 1);
-		font-size: 5px;
+		font-size:15px;
 		border-width: 0px;
 		border-style: solid;
 		border-color: #DCDFE6;
