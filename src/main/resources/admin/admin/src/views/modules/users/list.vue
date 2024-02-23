@@ -485,6 +485,7 @@ export default {
 
   .el-button+.el-button {
     margin:0;
+    font-size:15px;
   } 
 
   .tables {
