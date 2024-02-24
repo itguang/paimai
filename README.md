@@ -1,4 +1,28 @@
+# ITSource分享第24期【在线拍卖系统】springboot+vue前后端分离+论文+PPT
+
+![ITSource_2024-02-24_19-20-42.png](https://itguang.oss-cn-beijing.aliyuncs.com/202402241921713.png)
+
+
+# 项目介绍
+
+在线拍卖系统，主要的模块包括管理员；首页、个人中心、用户管理、商品类型管理、拍卖商品管理、历史竞拍管理、竞拍订单管理、留言板管理、系统管理，用户；首页、个人中心、历史竞拍管理、竞拍订单管理、留言板管理，前台首页；首页、拍卖商品、竞拍公告、留言反馈、个人中心、后台管理等功能。系统中管理员主要是为了安全有效地存储和管理各类信息，还可以对系统进行管理与更新维护等操作，并且对后台有相应的操作权限。
+
+**技术栈:**
+
+* 后端:  SpringBoot +Mybatis
+* 数据库 : MySQL 8
+* 前端:  VUE + ElementUI
+
+**开发环境依赖：**
+* MySQL 8 数据库
+* JDK1.8
+* Maven 3
+* IDEA
+* Node 13
+
+
 **更多资源推荐:**
+
 - [ITSource 分享 第1期【问卷调查系统】springboot+vue](https://mp.weixin.qq.com/s/KE7jOCpvbLVddVnu81fg9A)
 - [ITSource 分享 第2期【在线考试系统】springboot+vue](https://mp.weixin.qq.com/s/So2Nb20hotB3S0aQtqf1mQ)
 - [ITSource 分享 第4期【简洁的问卷调查系统】springboot+vue](https://mp.weixin.qq.com/s/HeSGWxxU-bGoeONjyR6qsw)
