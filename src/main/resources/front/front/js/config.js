@@ -6,7 +6,7 @@ var projectName = '在线拍卖系统';
 var swiper = {
 	// 设定轮播容器宽度，支持像素和百分比
 	width: '100%',
-	height: '400px',
+	height: '600px',
 	// hover（悬停显示）
 	// always（始终显示）
 	// none（始终不显示）
@@ -54,9 +54,9 @@ var indexNav = [
 
 var adminurl =  "http://localhost:8080/springbootp0eo6/admin/dist/index.html";
 
-var cartFlag = false
+var cartFlag = true
 
-var chatFlag = false
+var chatFlag = true
 
 
 
