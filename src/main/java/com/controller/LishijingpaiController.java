@@ -135,9 +135,10 @@ public class LishijingpaiController {
         //ValidatorUtils.validateEntity(lishijingpai);
         lishijingpaiService.updateById(lishijingpai);//全部更新
         // 审核通过添加订单
-
-        JingpaidingdanEntity jingpaidingdanEntity = conv(lishijingpai);
-        jingpaidingdanService.insert(jingpaidingdanEntity);
+        if ("是".equals(lishijingpai.getSfsh())) {
+            JingpaidingdanEntity jingpaidingdanEntity = conv(lishijingpai);
+            jingpaidingdanService.insert(jingpaidingdanEntity);
+        }
         return R.ok();
     }
 
